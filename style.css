@@ -1,0 +1,67 @@
+body {
+    background-color: #f6a2bd;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka', sans-serif; 
+}
+
+.content {
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 48px;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.buy-now {
+    font-size: 20px;
+    padding: 10px 30px;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    display: inline-block; /* Ensures proper padding and border display */
+    text-decoration: none; /* Removes underline from the link */
+    line-height: normal; /* Adjust line height if necessary */
+}
+
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 50%;
+    max-width: 600px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px; /* Significantly smaller font size for the title on smaller screens */
+    }
+    
+    h2 {
+        font-size: 14px; /* Significantly smaller font size for the subtitle on smaller screens */
+    }
+    
+    .buy-now {
+        font-size: 16px;
+        padding: 8px 20px; /* Adjusted padding */
+    }
+    
+    .logo {
+        width: 70%; /* Adjust the logo width for better visibility on smaller screens */
+    }
+}
